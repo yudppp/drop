@@ -16,7 +16,7 @@
   "scripts": {
     "start": "npm run watch",
     "test": "mocha --reporter nyan --compilers js:babel/register --recursive",
-    "clean": "rimraf ../docs/*",
+    "clean": "rimraf ../docs/app.*",
     "browserify": "NODE_ENV=production browserify src/index.js -t babelify -d -p [minifyify --map app.js.map --output ../docs/app.js.map] > ../docs/app.js",
     "styles": "postcss -c postcss.json",
     "server": "browser-sync start --files \"docs/app.css,docs/app.js\" --server ../docs --reload-delay 1000",
