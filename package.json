@@ -1,7 +1,7 @@
 {
-  "name": "my_style_doc",
-  "version": "1.0.0",
-  "description": "my style document",
+  "name": "drop",
+  "version": "0.0.1",
+  "description": "CSS boilerplate use PostCSS",
   "scripts": {
     "dev": "postcss -c postcss.json",
     "build": "postcss -c postcss.json && csso dist/app.css dist/app.min.css",
