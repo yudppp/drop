@@ -1,0 +1,37 @@
+.u-bg-primary {
+  background: var(--primaryColor);
+}
+
+.u-bg-secondary {
+  background: var(--secondaryColor);
+}
+
+.u-bg-black {
+  background: var(--black);
+}
+
+.u-bg-darkGray {
+  background: var(--darkGray);
+}
+
+.u-bg-gray {
+  background: var(--gray);
+}
+
+.u-bg-lightGray {
+  background: var(--lightGray);
+}
+
+.u-bg-darkWhite {
+  background: var(--darkWhite);
+}
+
+.u-bg-white {
+  background: var(--white);
+}
+
+/* TODO: move this*/
+a.is-active {
+  color: var(--darkGray);
+  text-decoration: none;
+}

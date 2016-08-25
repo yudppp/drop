@@ -1,0 +1,34 @@
+.c-tabs {
+  width: 100%;
+  border-bottom: .1rem solid var(--lightGray);
+  display: block;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.c-tabs__item {
+  display: inline-block;
+  margin: 0;
+  padding: 8px 16px;
+  min-width: 40px;
+  text-align: center;
+
+  a {
+    color: var(--black);
+  }
+
+  &:hover {
+    a {
+      color: var(--primaryColor);
+    }
+  }
+}
+
+.c-tabs__item--active {
+  @extend .c-tabs__item;
+  box-shadow: inset 0 -4px 0 0 var(--primaryColor);
+
+  a {
+    color: var(--primaryColor);
+  }
+}

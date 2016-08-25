@@ -1,0 +1,23 @@
+/* ITCSS base*/
+/* settings layer */
+@import "../../../src/settings";
+
+/* tools layer */
+/*@import "tools";*/
+
+/* generics layer */
+@import "../../../src/generics";
+
+/* base layer */
+@import "../../../src/base";
+
+/* components layer */
+@import "../../../src/components";
+
+/* projects layer */
+@import "./projects";
+
+/* TODO: add animation layer? */
+
+/* utils(trumps) layer */
+@import "../../../src/utils";

@@ -1,0 +1,19 @@
+:root {
+  --primaryColor: #42b3fb;
+  --primaryHoverColor: color(var(--primaryColor) b(12%));
+  --primaryDisabledColor: color(var(--primaryColor) b(50%));
+  --primaryGray: color(var(--primaryColor) s(-40%) b(20%));
+  --primaryWhite: color(var(--primaryColor) w(97%));
+  --linkColor: var(--primaryColor);
+  --linkVisitedColor: color(var(--primaryColor) b(12%));
+  --secondaryColor: #fb42a5;
+  --secondaryHoverColor: color(var(--secondaryColor) b(10%));
+  --secondaryGray: color(var(--secondaryColor) s(-40%) b(20%));
+  --secondaryWhite: color(var(--secondaryColor) w(97%));
+  --black: #4b4c54;
+  --darkGray: #707275;
+  --gray: #a5a6a9;
+  --lightGray: #dbdcde;
+  --darkWhite: #fafbfb;
+  --white: #fff;
+}

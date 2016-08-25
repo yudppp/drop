@@ -1,0 +1,50 @@
+.c-nav {
+  align-items: stretch;
+  background-color: var(--darkWhite);
+  display: flex;
+  min-height: 78px;
+  position: relative;
+  text-align: center;
+}
+
+.c-nav__left {
+  align-items: stretch;
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 1;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.c-nav__center {
+  align-items: stretch;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c-nav__right {
+  align-items: stretch;
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.c-nav__item {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.c-nav__item a {
+  flex-grow: 1;
+}
+
+.c-nav__item img {
+  max-height: 24px;
+}

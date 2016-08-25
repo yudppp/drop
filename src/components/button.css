@@ -1,0 +1,63 @@
+.c-button {
+  text-align: center;
+  align-items: center;
+  min-width: 150px;
+  max-width: 250px;
+  margin: .5rem;
+  padding: .8rem 1.6rem;
+  line-height: 5rem;
+  color: var(--black);
+  border: 1px solid var(--lightGray);
+  border-radius: 4px;
+  position: relative;
+  z-index: 1;
+  transition: none;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    border: 1px solid var(--darkGray);
+  }
+
+  &:active {
+    top: 2px;
+  }
+}
+
+.c-button--primary {
+  @extend .c-button;
+  background: var(--primaryColor);
+  color: var(--white);
+  border: none;
+
+  &:hover {
+    background: var(--primaryHoverColor);
+    border: none;
+  }
+}
+
+.c-button--secondary {
+  @extend .c-button;
+  background: var(--secondaryColor);
+  color: var(--white);
+  border: none;
+
+  &:hover {
+    background: var(--secondaryHoverColor);
+    border: none;
+  }
+}
+
+.c-button--small {
+  min-width: 20px;
+  padding: .4rem 1.2rem;
+  line-height: 3rem;
+  margin: .5rem .9rem;
+}
+
+.c-button--full {
+  width: 100%;
+  max-width: 100%;
+}

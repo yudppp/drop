@@ -1,0 +1,24 @@
+/*MOVE: lostgrid?*/
+.c-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.c-grid__cell {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.c-grid__cell--fill {
+  @extend .c-grid__cell;
+  width: 0;
+  min-width: 0;
+  flex-grow: 1;
+}
+
+@for $i from 1 to 12 {
+  .c-grid__cell--$i {
+    @extend .c-grid__cell;
+    width: calc(100% * $(i) / 12);
+  }
+}

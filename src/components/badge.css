@@ -1,0 +1,31 @@
+.c-badge {
+  align-items: center;
+  background-color: var(--darkWhite);
+  border-radius: 1000px;
+  border: 1px solid var(--lightGray);
+  color: var(--black);
+  display: inline-flex;
+  font-size: 12px;
+  height: 24px;
+  justify-content: center;
+  line-height: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: top;
+  white-space: nowrap;
+  margin: 0 4px;
+}
+
+.c-badge--primary {
+  @extend .c-badge;
+  background: var(--primaryColor);
+  color: var(--white);
+  border: none;
+}
+
+.c-badge--secondary {
+  @extend .c-badge;
+  background: var(--secondaryColor);
+  color: var(--white);
+  border: none;
+}

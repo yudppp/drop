@@ -1,0 +1,24 @@
+/* ITCSS base*/
+/* settings layer */
+@import "settings";
+
+/* tools layer */
+/*@import "tools";*/
+
+/* generics layer */
+@import "generics";
+
+/* base layer */
+@import "base";
+
+/* components layer */
+@import "components";
+
+/* projects layer */
+/*@import "projects";*/
+
+/* animations layer */
+@import "animations";
+
+/* utils(trumps) layer */
+@import "utils";

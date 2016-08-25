@@ -1,0 +1,155 @@
+body {
+  padding: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 680px;
+  min-width: 380px;
+}
+
+.logo {
+  padding: 0 20px;
+  width: 60%;
+}
+
+.header {
+  margin: 10rem 0;
+  text-align: center;
+}
+
+.header img {
+  width: 32px;
+  vertical-align: -4px;
+  margin-right: 4px;
+}
+
+.links a {
+  margin: 0 4px;
+}
+
+.sub-title {
+  margin-bottom: 1rem;
+}
+
+.section {
+  margin: 3rem 0 0 0;
+}
+
+.preview {
+  border-radius: 3px;
+  padding: 20px 8px;
+}
+
+.code {
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  padding: 20px;
+  background: #fcfcfc;
+}
+
+.module {
+  padding: 8px;
+}
+
+.block {
+  width: 180px;
+  height: 60px;
+  border-top-left-radius: 30px;
+}
+
+.drop {
+  width: 60px;
+  height: 60px;
+  border-radius: 0 30px 30px 30px;
+  margin: 8px 16px 0 0;
+  border: 2px solid rgba(0, 0, 0, 0.20);
+}
+
+.drop.bg-white {
+  margin: 8px 0 0 0;
+}
+
+.grid-o {
+  border: 1px solid #ccc;
+  font-size: 1.2rem;
+  padding: 4px;
+}
+
+.grid-o .inner {
+  background: #fafafa;
+  border: 1px solid #ccc;
+  margin: 4px;
+  padding: 4px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.p-example {
+  border: 1px solid #ccc;
+  min-height: 480px;
+}
+
+.p-example .c-nav a {
+  color: #333;
+}
+
+.p-alert {
+  margin: 20px;
+}
+
+.p-list {
+  margin: 20px;
+  font-size: 1.2rem;
+  overflow-x: hidden;
+}
+
+.p-list tr:first-child td {
+  border-top: .1rem solid #dbdcde;
+}
+
+.p-list__data--small {
+  width: 8px;
+}
+
+.p-list .c-tabs {
+  margin-bottom: 20px;
+}
+
+.p-button-edit {
+  &:before {
+    font-awesome: pencil-square-o;
+  }
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}

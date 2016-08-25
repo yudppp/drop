@@ -1,0 +1,26 @@
+table {
+  width: 100%;
+  border-spacing: 0;
+  box-sizing: content-box;
+}
+
+th {
+  text-transform: uppercase;
+}
+
+th,
+td {
+  border-bottom: .1rem solid var(--lightGray);
+  padding: 1.2rem 1.6rem;
+  text-align: left;
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 0;
+}
+
+th:last-child,
+td:last-child {
+  padding-right: 0;
+}

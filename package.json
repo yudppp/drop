@@ -1,0 +1,34 @@
+{
+  "name": "my_style_doc",
+  "version": "1.0.0",
+  "description": "my style document",
+  "scripts": {
+    "dev": "postcss -c postcss.json",
+    "build": "postcss -c postcss.json && csso dist/app.css dist/app.min.css",
+    "watch": "watch 'npm run dev' src/",
+    "fmt": "stylefmt -R ./src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yudppp",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "csso": "^2.2.1",
+    "normalize.css": "^4.2.0",
+    "parallelshell": "^2.0.0",
+    "postcss": "5.1.1",
+    "postcss-apply": "^0.3.0",
+    "postcss-cli": "^2.5.2",
+    "postcss-color-function": "^2.0.1",
+    "postcss-custom-properties": "^5.0.1",
+    "postcss-extend": "^1.0.5",
+    "postcss-font-awesome": "^0.3.4",
+    "postcss-for": "^2.1.1",
+    "postcss-import": "^8.1.2",
+    "postcss-nested": "^1.0.0",
+    "pug": "^2.0.0-beta4",
+    "pug-cli": "^1.0.0-alpha6",
+    "stylefmt": "^4.2.3",
+    "watch": "^0.19.1"
+  }
+}

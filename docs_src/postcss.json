@@ -1,0 +1,19 @@
+{
+    "use": [
+        "postcss-import",
+        "postcss-apply",
+        "postcss-nested",
+        "postcss-for",
+        "postcss-extend",
+        "postcss-custom-properties",
+        "postcss-color-function",
+        "postcss-font-awesome",
+        "autoprefixer"
+    ],
+    "input": "src/styles/app.css",
+    "output": "../docs/app.css",
+    "local-plugins": true,
+    "autoprefixer": {
+        "browsers": "> 5%"
+    }
+}
